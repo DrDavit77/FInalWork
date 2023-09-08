@@ -8,7 +8,7 @@
 
 
 
-    /* section */
+    /* section 1*/
 
     .section1 {
         background-image: url(../img/Rectangle\ 109.svg);
@@ -16,4 +16,42 @@
         object-fit: cover;
         height: 400px;
     }
+    .section1content {
+        top: 120px;
+        
+     }
+    .section1text{
+        margin-bottom: 40px;
+     }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px){
+
+    /* section1 */
+    .section1content {
+        top: 98px;
+        
+     }
+
+     .section1title{
+        margin-bottom: 5px;
+        font-size: 28px;
+     }
+    .section1text{
+        margin-bottom: 10px;
+        font-size: 13px;
+     }
+
+     .section1button{
+        width: 110px;
+        padding: 5px 20px ;
+     }
 }

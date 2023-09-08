@@ -20,10 +20,12 @@ header {
     background: rgba(213, 144, 110, 0.52);
     backdrop-filter: blur(5px);
     position: fixed;
+    z-index: 2;
 
 }
 
-.fa-bars,.fa-xmark {
+.fa-bars,
+.fa-xmark {
     display: none;
     align-items: center;
     font-size: 30px;
@@ -94,8 +96,61 @@ header {
     width: 100%;
     height: 720px;
     background-image: url(../img/Rectangle\ 106.svg);
-    
-    object-fit: fill;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+}
+
+.section1img {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+
+.section1content {
+    width: 751px;
+    height: 249px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 283px;
+    transform: translatex(-50%);
+    z-index: 1;
+}
+
+.section1title {
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+
+}
+
+.section1text {
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 72px;
+}
+
+.section1button {
+    color: var(--basiccolor);
+    width: 311px;
+    height: 56px;
+    padding: 19px 0px 18px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid var(--lightcolor_of_font);
 }
 
 /*  */

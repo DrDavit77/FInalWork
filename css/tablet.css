@@ -1,5 +1,5 @@
 @media (max-width: 840px) {
-
+/* header */
     .fa-bars {
         display: flex;
     }
@@ -29,5 +29,24 @@
         display: block;
     }
 
-     
+     /* section1 */
+     .section1{
+        height: 500px;
+     }
+     .section1content {
+        top: 180px;
+        width: 90%;
+     }
+     .section1title{
+        font-size: 32px;
+        margin-bottom: 8px;
+     }
+     .section1text{
+        margin-bottom: 60px;
+     }
+
+     .section1button{
+        width: 160px;
+        padding: 15px 41px 14px 41px;
+     }
 }
