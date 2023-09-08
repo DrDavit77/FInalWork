@@ -1,0 +1,33 @@
+@media (max-width: 840px) {
+
+    .fa-bars {
+        display: flex;
+    }
+
+    .header_nav {
+        width: 35%;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        background-color: var(--Mediumcolor_of_font);
+        position: fixed;
+        background-size: cover;
+        top: 96px;
+        left: -35%;
+        flex-direction: column;
+    }
+
+    .aactive {
+        left: 0;
+    }
+    .mainlogo {
+        display: none;
+    }
+
+    .main_logo_mobile_version {
+        display: block;
+    }
+
+     
+}
