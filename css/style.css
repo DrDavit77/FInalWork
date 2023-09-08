@@ -153,4 +153,39 @@ header {
     border: 2px solid var(--lightcolor_of_font);
 }
 
-/*  */
+/* section2  */
+
+.section2 {
+    width: 100%;
+    height: 526px;
+    background-color: var(--basiccolor);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.section2cards {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.section2pics {
+    width: 190px;
+    border-radius: 70px;
+}
+
+.section2text {
+    color: var(--Mediumcolor_of_font);
+    font-family: var(--majortext);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

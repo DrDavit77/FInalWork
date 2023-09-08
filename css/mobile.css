@@ -23,6 +23,18 @@
     .section1text{
         margin-bottom: 40px;
      }
+
+     /* section2 */
+
+     .section2{
+        height: 414px;
+        gap: 20px;
+     }
+     .section2pics{
+        width: 130px;
+        height: 96px;
+    }
+    
 }
 
 
@@ -37,7 +49,7 @@
 
     /* section1 */
     .section1content {
-        top: 98px;
+        top: 108px;
         
      }
 

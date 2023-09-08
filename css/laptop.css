@@ -4,5 +4,13 @@
     padding: 26px 5%;
     
     }
-
+    /* section2 */
+    .section2{
+        height: 500px;
+    }
+    .section2pics{
+        width: 140px;
+        height: 120px;
+    }
+    
 }
