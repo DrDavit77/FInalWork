@@ -1,3 +1,21 @@
+@media (max-width: 902px) {
+    .section3cards{
+        flex-direction: column;
+    }
+
+    .section3card1{
+        width: 90%;
+    }
+    .section3card2{
+        display: none;
+    }
+}
+
+
+
+
+
+
 @media (max-width: 840px) {
 
     /* header */

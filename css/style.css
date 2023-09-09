@@ -168,7 +168,7 @@ header {
 
 
 .section2cards {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,4 +188,41 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+/* section3 */
+
+.section3gallery {
+    width: 100%;
+    height: 922px;
+    /* padding: 184px 365px 96px; */
+    background-color: var(--Boldcolor_of_font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.section3title {
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section3cards {
+    width: 1190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.section3card1 {
+    
+
 }

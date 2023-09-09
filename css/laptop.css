@@ -1,16 +1,41 @@
 @media (max-width: 1200px) {
+
     /* header */
-    header{
-    padding: 26px 5%;
-    
+    header {
+        padding: 26px 5%;
+
     }
+
     /* section2 */
-    .section2{
+    .section2 {
         height: 500px;
     }
-    .section2pics{
+
+    .section2pics {
         width: 140px;
         height: 120px;
     }
-    
+
+    /* section3 */
+    .section3cards {
+        width: 96%;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .section3card1 {
+        width: 390px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .section3card2{
+        width: 390px;
+        height: 240px;
+        object-fit: cover;
+    }
+    .section3card3 {
+        display: none;
+    }
+
 }
