@@ -84,7 +84,20 @@
     }
 
 
-    
-    
+    /* section5 */
+
+    .section5 {
+        height: 200px;
+        gap: 24px;
+    }
+
+    .section5title{
+        font-size: 32px;
+    }
+
+    .Email{
+        width: 200px;
+    }
+
+
 }
-    

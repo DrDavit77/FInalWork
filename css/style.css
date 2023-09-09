@@ -255,11 +255,11 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .productscard1 {
-    
+
     display: flex;
     position: relative;
 }
@@ -303,10 +303,60 @@ header {
 
 /* section5 */
 
-.sectio5 {
+.section5 {
     max-width: 1920px;
     width: 100%;
     height: 480px;
     background-image: url(../img/Rectangle\ 98.svg);
     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 56px;
+}
+
+.section5title {
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Email_address {
+    
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Email {
+    width: 350px;
+    height: 56px;
+    padding: 11px 22px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid var(--basiccolor);
+    background-color: transparent;
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Submit {
+    height: 56px;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    color: var(--Boldcolor_of_font);
+    background-color: var(--basiccolor);
+    border: none;
 }
