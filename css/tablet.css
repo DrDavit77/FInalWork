@@ -10,11 +10,23 @@
     .section3card2 {
         display: none;
     }
+
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
 }
 
 
 
-
+@media (max-width:  894px){
+    .footerlogo{
+        order: 2;
+    }
+   
+}
 
 
 @media (max-width: 840px) {
@@ -91,29 +103,30 @@
         gap: 24px;
     }
 
-    .section5title{
+    .section5title {
         font-size: 32px;
     }
 
-    .Email{
+    .Email {
         width: 200px;
     }
+
     /* section6 */
 
-    .section6{
+    .section6 {
         padding: 64px 20px;
     }
 
-    .infotitle{
+    .infotitle {
         font-size: 32px;
     }
 
-    .infoblanks{
+    .infoblanks {
         gap: 20px;
         margin-bottom: 28px;
     }
 
-    .helpcentertitle{
+    .helpcentertitle {
         height: 60px;
     }
 
