@@ -69,6 +69,18 @@
    .footerlogo {
       order: 0;
    }
+
+   .section1artworks{
+      height: 400px;
+      background-image: url(../img.artworks/Rectangle\ 110.svg);
+
+      
+   }
+
+   .section1artworkscontent{
+
+      gap: 22px;
+   }
 }
 
 
