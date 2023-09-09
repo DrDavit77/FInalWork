@@ -70,6 +70,9 @@
       order: 0;
    }
 
+
+   /* sectionartworks*/
+
    .section1artworks{
       height: 400px;
       background-image: url(../img.artworks/Rectangle\ 110.svg);
@@ -78,9 +81,19 @@
    }
 
    .section1artworkscontent{
-
       gap: 22px;
    }
+
+   /* main */
+   main{
+      padding: 64px 12%;
+   }
+   .searchproduct{
+      justify-content: start;
+   }
+
+
+
 }
 
 
@@ -124,5 +137,11 @@
       width: 100%;
    }
 
-
+   /* main */
+   .searchinput{
+      width: 170px;
+   }
+   .searchbutton{
+      width: 100px;
+   }
 }

@@ -110,6 +110,12 @@
         height: 60px;
     }
 
+    /* main */
+    .searchproduct{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
 }
 
 
@@ -119,4 +125,13 @@
         padding: 25px 15%;
         
      }
+
+     /* main */
+     .searchinput{
+        width: 200px;
+        gap: 80px;
+    }
+    .searchbutton{
+        width: 140px;
+    }
 }
