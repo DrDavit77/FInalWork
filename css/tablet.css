@@ -98,6 +98,23 @@
     .Email{
         width: 200px;
     }
+    /* section6 */
 
+    .section6{
+        padding: 64px 20px;
+    }
+
+    .infotitle{
+        font-size: 32px;
+    }
+
+    .infoblanks{
+        gap: 20px;
+        margin-bottom: 28px;
+    }
+
+    .helpcentertitle{
+        height: 60px;
+    }
 
 }

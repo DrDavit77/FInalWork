@@ -327,12 +327,12 @@ header {
 }
 
 .Email_address {
-    
+
     display: flex;
     padding-left: 0px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .Email {
@@ -359,4 +359,103 @@ header {
     color: var(--Boldcolor_of_font);
     background-color: var(--basiccolor);
     border: none;
+}
+
+/* section6 */
+
+.section6 {
+    padding: 160px 12%;
+    background-color: var(--basiccolor);
+}
+
+.infodesk {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infotitle {
+    text-align: center;
+    color: var(--Boldcolor_of_font);
+    font-family: var(--majortext);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.infoblanks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 112px;
+}
+
+.infoblanks1 {
+    display: flex;
+    width: 439px;
+    height: 129px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(213, 144, 110, 0.30);
+}
+
+.blankstitle {
+    color: var(--Mediumcolor_of_font);
+    font-family: var(--basiccolor);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blankstext {
+    color: var(--Boldcolor_of_font);
+    font-family: var(--majortext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.helpcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.helpcentertitle {
+    text-align: center;
+    color: var(--Boldcolor_of_font);
+    font-family: var(--majortext);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.helpcenterbutton {
+    width: 309px;
+    color: var(--basiccolor);
+    font-family: var(--basiccolor);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    padding: 14px 52px 13px 52px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background: var(--Mediumcolor_of_font);
 }
