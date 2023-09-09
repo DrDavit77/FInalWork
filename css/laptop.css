@@ -1,6 +1,6 @@
 @media (max-width: 1461px) {
-    footer{
-        padding: 32px  10%  ;
+    footer {
+        padding: 32px 10%;
     }
 }
 
@@ -51,14 +51,37 @@
     .arrows {
         display: none;
     }
-    .section4button{
+
+    .section4button {
         display: flex;
     }
-    
+
     /* footer */
 
-    footer{
-        padding: 32px  8% ;
+    footer {
+        padding: 32px 8%;
         gap: 9%;
+    }
+}
+
+
+@media (max-width: 902px) {
+    .section3cards {
+        flex-direction: column;
+    }
+
+    .section3card1 {
+        width: 90%;
+    }
+
+    .section3card2 {
+        display: none;
+    }
+
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
     }
 }

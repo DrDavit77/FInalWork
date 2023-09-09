@@ -1,100 +1,116 @@
 @media (max-width: 500px) {
-    header {
-        padding: 9px 20px;
-        gap: 0;
-        height: 96px;
+   header {
+      padding: 9px 20px;
+      gap: 0;
+      height: 96px;
 
-    }
+   }
 
 
-    /* section 1*/
+   /* section 1*/
 
-    .section1 {
-        background-image: url(../img/Rectangle\ 109.svg);
-        display: flex;
-        object-fit: cover;
-        height: 400px;
-    }
-    .section1content {
-        top: 120px;
-        
-     }
-    .section1text{
-        margin-bottom: 40px;
-     }
+   .section1 {
+      background-image: url(../img/Rectangle\ 109.svg);
+      display: flex;
+      object-fit: cover;
+      height: 400px;
+   }
 
-     /* section2 */
+   .section1content {
+      top: 120px;
 
-     .section2{
-        height: 414px;
-        gap: 20px;
-     }
-     .section2pics{
-        width: 130px;
-        height: 96px;
-    }
-    
+   }
 
-    /* section4 */
+   .section1text {
+      margin-bottom: 40px;
+   }
 
-    .section4{
-      padding-top: 64px;
-    }
-    .productstitle{
-      
-      font-size: 32px;
-    }
+   /* section2 */
 
-    .productscards{
+   .section2 {
+      padding: 20px 10%;
+      height: 414px;
       gap: 20px;
-    }
+   }
 
-    /* section6 */
-    .infoblanks1{
+   .section2pics {
+      width: 130px;
+      height: 96px;
+   }
+
+
+   /* section4 */
+
+   .section4 {
+      padding-top: 64px;
+   }
+
+   .productstitle {
+
+      font-size: 32px;
+   }
+
+   .productscards {
+      gap: 20px;
+   }
+
+   /* section6 */
+   .infoblanks1 {
       width: 95%;
       height: 190px;
-    }
+   }
 
-    .helpcenterbutton {
+   .helpcenterbutton {
       width: 300px;
-    }
+   }
 
-    /* footer */
+   /* footer */
 
-    .footerlogo{
+   .footerlogo {
       order: 0;
-  }
+   }
 }
 
 
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
 
-    /* section1 */
-    .section1content {
-        top: 108px;
-        
-     }
+   /* section1 */
+   .section1content {
+      top: 108px;
 
-     .section1title{
-        margin-bottom: 5px;
-        font-size: 28px;
-     }
-    .section1text{
-        margin-bottom: 10px;
-        font-size: 13px;
-     }
+   }
 
-     .section1button{
-        width: 110px;
-        padding: 5px 20px ;
-     }
+   .section1title {
+      margin-bottom: 5px;
+      font-size: 28px;
+   }
 
-     /* section3 */
+   .section1text {
+      margin-bottom: 10px;
+      font-size: 13px;
+   }
 
-     .section3card1{
-        width: 100%;
-     }
+   .section1button {
+      width: 110px;
+      padding: 5px 20px;
+   }
 
-     
+
+    /* section2 */
+
+    .section2 {
+      padding: 15px 2%;
+      height: 414px;
+      gap: 20px;
+   }
+
+
+   /* section3 */
+
+   .section3card1 {
+      width: 100%;
+   }
+
+
 }
