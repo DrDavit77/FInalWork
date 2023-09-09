@@ -5,6 +5,11 @@
     .footerlogo{
         order: 2;
     }
+    
+
+    .allcategorytitle{
+        font-size: 32px;
+    }
    
 }
 
@@ -111,6 +116,9 @@
     }
 
     /* main */
+    main{
+        padding: 64px 12%;
+     }
     .searchproduct{
         flex-wrap: wrap;
         gap: 24px;
