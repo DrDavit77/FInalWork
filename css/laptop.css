@@ -29,13 +29,24 @@
         object-fit: cover;
     }
 
-    .section3card2{
+    .section3card2 {
         width: 390px;
         height: 240px;
         object-fit: cover;
     }
+
     .section3card3 {
         display: none;
     }
+
+    /* section4 */
+
+    .arrows {
+        display: none;
+    }
+    .section4button{
+        display: flex;
+    }
+    
 
 }

@@ -1,12 +1,13 @@
 @media (max-width: 902px) {
-    .section3cards{
+    .section3cards {
         flex-direction: column;
     }
 
-    .section3card1{
+    .section3card1 {
         width: 90%;
     }
-    .section3card2{
+
+    .section3card2 {
         display: none;
     }
 }
@@ -75,10 +76,15 @@
 
 
     /* section2 */
-    .section2{
+    .section2 {
         height: 450px;
         justify-content: space-around;
         align-items: center;
-        
+
     }
+
+
+    
+    
 }
+    
