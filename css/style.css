@@ -329,11 +329,11 @@ header {
     }
 
     30% {
-        rotate: 20deg;
+        rotate: 2deg;
     }
 
     60% {
-        rotate: -20deg;
+        rotate: -2deg;
     }
 
     100% {
