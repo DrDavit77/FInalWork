@@ -8,6 +8,6 @@
     --majortext: 'Inter', sans-serif;
     --minortext: 'Rubik', sans-serif;
     
-    
+    --buttonshover:6px 7px 10px 2px var(--lightcolor_of_font);
     
 }

@@ -41,6 +41,13 @@ header {
     justify-content: space-between;
 }
 
+.header_list {
+    transition: all 1s ease;
+}
+
+.header_list:hover {
+    transform: scale(1.2);
+}
 
 .Active {
     color: var(--lightcolor_of_font);
@@ -49,6 +56,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
 
 .Noactive {
@@ -58,16 +66,27 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
 }
+
 
 .mainlogo {
     display: flex;
+    transition: all 2s ease;
+}
+
+.mainlogo:hover {
+    transform: scale(1.2);
 }
 
 .main_logo_mobile_version {
     display: none;
+    transition: all 2s ease;
 }
 
+.main_logo_mobile_version:hover {
+    transform: scale(1.2);
+}
 
 
 .sign_in {
@@ -84,11 +103,21 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: all 1s ease;
+}
+
+.sign_in_txt:hover {
+    transform: scale(1.2);
 }
 
 .fa-cart-shopping {
     color: var(--basiccolor);
     font-size: 22px;
+    transition: all 1s ease;
+}
+
+.fa-cart-shopping:hover {
+    transform: scale(1.2);
 }
 
 /* section 1*/
@@ -154,6 +183,11 @@ header {
     background-color: transparent;
     border-radius: 10px;
     border: 2px solid var(--lightcolor_of_font);
+    transition: all 2s ease;
+}
+
+.section1button:hover {
+    box-shadow: var(--buttonshover);
 }
 
 /* section2  */
@@ -177,7 +211,14 @@ header {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    transition: all 2s ease;
 }
+
+.section2cards:hover {
+    transform: scale(1.2);
+
+}
+
 
 .section2pics {
     width: 190px;
@@ -224,6 +265,13 @@ header {
     row-gap: 50px;
 }
 
+.ccard22{
+    transition: all 2s ease;
+}
+
+.ccard22:hover{
+    box-shadow: var(--buttonshover);
+}
 /* section4 */
 
 .section4 {
@@ -251,18 +299,48 @@ header {
     gap: 24px;
 }
 
+.arrows {
+    transition: all 2s ease;
+}
+
+.arrows:hover {
+    box-shadow: var(--buttonshover);
+}
+
 .productscards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
+
 }
 
-.productscard1 {
 
+.productscard1 {
     display: flex;
     position: relative;
+    animation: productcard1 1s infinite;
+}
+
+@keyframes productcard1 {
+    0% {
+        rotate: 0;
+    }
+
+    30% {
+        rotate: 20deg;
+    }
+
+    60% {
+        rotate: -20deg;
+    }
+
+    100% {
+        rotate: 0;
+    }
+
+
 }
 
 .productsprice {
@@ -300,6 +378,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: all 2s ease;
+}
+
+.section4buton:hover{
+    box-shadow: var(--buttonshover);
 }
 
 /* section5 */
@@ -352,6 +435,7 @@ header {
 }
 
 .Submit {
+    width: 150px;
     height: 56px;
     padding: 1%;
     justify-content: center;
@@ -360,6 +444,22 @@ header {
     color: var(--Boldcolor_of_font);
     background-color: var(--basiccolor);
     border: none;
+    font-family: var(--majortext);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    animation: Submit 5s infinite;
+}
+
+@keyframes Submit{
+    from {
+        font-size: 8px;
+    }
+
+    to {
+        font-size: 18px;
+    }
 }
 
 /* section6 */
@@ -460,6 +560,11 @@ header {
     border: none;
     border-radius: 10px;
     background: var(--Mediumcolor_of_font);
+    transition: all 1s ease;
+}
+
+.helpcenterbutton:hover{
+    box-shadow: var(--buttonshover);
 }
 
 
@@ -504,6 +609,16 @@ footer {
     justify-content: space-around;
     align-items: center;
     gap: 27px;
+}
+
+
+
+.iconss{
+    transition: all 1s ease;
+}
+
+.iconss:hover{
+    transform: scale(1.2);
 }
 
 
@@ -627,6 +742,17 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    animation: searchbutton 3s forwards;
+}
+
+@keyframes searchbutton{
+    from {
+        font-size: 6px;
+    }
+
+    to {
+        font-size: 18px;
+    }
 }
 
 .allcategory {
@@ -677,6 +803,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    transition: all 2s ease;
+}
+
+.productcards:hover{
+    transform: scale(.8);
 }
 
 .productimg {
@@ -708,6 +839,14 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.moveinpages{
+    transition: all 2s ease;
+}
+
+.moveinpages:hover{
+    box-shadow: var(--buttonshover);
 }
 
 
@@ -763,7 +902,7 @@ main {
     display: flex;
     max-width: 190px;
     width: 100%;
-    padding: 11px 80px 12px 8px;
+    padding: 11px 20px 12px 8px;
     background-color: transparent;
     align-items: center;
     border-radius: 10px;
@@ -797,6 +936,7 @@ main {
 
 .contactssubmitbutton {
     display: flex;
+    width: 151px;
     height: 48px;
     padding: 19px 42px 18px 43px;
     justify-content: center;
@@ -810,7 +950,19 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    animation: searchbutton 3s infinite;
 }
+
+@keyframes searchbutton{
+    from {
+        font-size: 6px;
+    }
+
+    to {
+        font-size: 18px;
+    }
+}
+
 
 
 /* section2 */
@@ -837,16 +989,17 @@ main {
 }
 
 .maps {
-   display: flex;
-   justify-content: space-between;
-   align-items: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
 
-.contactinformation{
+.contactinformation {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
+
 .contactinfotitlee {
     color: var(--Mediumcolor_of_font);
     font-family: var(--majortext);
