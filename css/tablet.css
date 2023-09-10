@@ -1,16 +1,31 @@
-
-
-
-@media (max-width:  894px){
-    .footerlogo{
+@media (max-width: 894px) {
+    .footerlogo {
         order: 2;
     }
-    
 
-    .allcategorytitle{
+    /* main */
+    .allcategory {
+        margin-bottom: 40px;
+    }
+
+    .allcategorytitle {
         font-size: 32px;
     }
-   
+
+    .product_list {
+        justify-content: center;
+        row-gap: 24px;
+    }
+
+    .benonecards2 {
+        display: none;
+    }
+
+    .moveinpages {
+        width: 256px;
+        height: 32px;
+
+    }
 }
 
 
@@ -116,10 +131,11 @@
     }
 
     /* main */
-    main{
+    main {
         padding: 64px 12%;
-     }
-    .searchproduct{
+    }
+
+    .searchproduct {
         flex-wrap: wrap;
         gap: 24px;
     }
@@ -128,18 +144,20 @@
 
 
 @media (max-width: 747px) {
+
     /* section2 */
     .section2 {
         padding: 25px 15%;
-        
-     }
 
-     /* main */
-     .searchinput{
+    }
+
+    /* main */
+    .searchinput {
         width: 200px;
         gap: 80px;
     }
-    .searchbutton{
+
+    .searchbutton {
         width: 140px;
     }
 }

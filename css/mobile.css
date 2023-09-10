@@ -76,8 +76,6 @@
    .section1artworks{
       height: 400px;
       background-image: url(../img.artworks/Rectangle\ 110.svg);
-
-      
    }
 
    .section1artworkscontent{
@@ -90,6 +88,9 @@
       justify-content: start;
    }
 
+   .product_list{
+      margin-bottom: 48px;
+   }
 
 
 }
