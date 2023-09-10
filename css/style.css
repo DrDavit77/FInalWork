@@ -720,7 +720,7 @@ main {
     background-position: center;
     display: flex;
     position: relative;
-    
+
 }
 
 .get_in_touch {
@@ -810,4 +810,64 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+/* section2 */
+
+.contact_us {
+    padding: 160px 19%;
+    background-color: var(--basiccolor);
+
+}
+
+.contact_usform {
+    background: rgba(213, 144, 110, 0.30);
+    text-align: center;
+}
+
+.contact_ustitle {
+    color: var(--Boldcolor_of_font);
+    font-family: var(--majortext);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.maps {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+
+.contactinformation{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contactinfotitlee {
+    color: var(--Mediumcolor_of_font);
+    font-family: var(--majortext);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+.contactinfotextt {
+    color: #623932;
+    font-family: var(--majortext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.map {
+    width: 815px;
+    height: 320px;
 }
