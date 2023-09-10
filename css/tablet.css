@@ -160,4 +160,23 @@
     .searchbutton {
         width: 140px;
     }
+
+    /* Contacts page */
+    /* section1 */
+
+    .section1contacts{
+        height: 620px;
+    }
+    .get_in_touch {
+        max-width: 440px;
+        width: 100%;
+        top: 128px;
+    }
+
+    .inputs{
+        gap: 10px;
+    }
+
+
+
 }

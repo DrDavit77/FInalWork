@@ -73,23 +73,35 @@
 
    /* sectionartworks*/
 
-   .section1artworks{
+   .section1artworks {
       height: 400px;
       background-image: url(../img.artworks/Rectangle\ 110.svg);
    }
 
-   .section1artworkscontent{
+   .section1artworkscontent {
       gap: 22px;
    }
 
    /* main */
-   
-   .searchproduct{
+
+   .searchproduct {
       justify-content: start;
    }
 
-   .product_list{
+   .product_list {
       margin-bottom: 48px;
+   }
+
+   /* COntacts page */
+
+   .section1contacts {
+      height: 560px;
+      background-image: url(../img.artworks/Rectangle\ 111.svg);
+      padding: 20px 24px;
+   }
+
+   .get_in_touch {
+      
    }
 
 
@@ -121,9 +133,9 @@
    }
 
 
-    /* section2 */
+   /* section2 */
 
-    .section2 {
+   .section2 {
       padding: 15px 2%;
       height: 414px;
       gap: 20px;
@@ -137,10 +149,11 @@
    }
 
    /* main */
-   .searchinput{
+   .searchinput {
       width: 170px;
    }
-   .searchbutton{
+
+   .searchbutton {
       width: 100px;
    }
 }

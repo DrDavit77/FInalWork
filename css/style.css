@@ -520,7 +520,7 @@ footer {
     display: flex;
     align-items: center;
 
-    gap: px16px;
+    gap: 16px;
 }
 
 .contacttext {
@@ -635,7 +635,7 @@ main {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 94px;
-    
+
 
 }
 
@@ -710,3 +710,104 @@ main {
     line-height: normal;
 }
 
+
+/* Contacts page */
+
+.section1contacts {
+    height: 720px;
+    background-image: url(../img.artworks/Rectangle\ 108.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    
+}
+
+.get_in_touch {
+    width: 500px;
+    height: 400px;
+    padding: 24px 30px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(64, 33, 1, 0.73);
+    box-shadow: -1px -1px 4px 0px #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 36px;
+    position: absolute;
+    left: 12%;
+    top: 208px;
+    transform: translatex(-12%);
+    z-index: 1;
+}
+
+.Contactssection1title {
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.inputname {
+    display: flex;
+    max-width: 190px;
+    width: 100%;
+    padding: 11px 80px 12px 8px;
+    background-color: transparent;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid var(--basiccolor);
+    color: rgba(255, 255, 255, 0.76);
+    font-family: var(--majortext);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textarea {
+    display: flex;
+    width: 100%;
+    height: 112px;
+    padding: 8px 172px 71px 8px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid var(--basiccolor);
+    resize: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.76);
+    font-family: var(--majortext);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactssubmitbutton {
+    display: flex;
+    height: 48px;
+    padding: 19px 42px 18px 43px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background: var(--lightcolor_of_font);
+    color: var(--basiccolor);
+    font-family: var(--majortext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
