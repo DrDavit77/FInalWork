@@ -265,13 +265,14 @@ header {
     row-gap: 50px;
 }
 
-.ccard22{
+.ccard22 {
     transition: all 2s ease;
 }
 
-.ccard22:hover{
+.ccard22:hover {
     box-shadow: var(--buttonshover);
 }
+
 /* section4 */
 
 .section4 {
@@ -381,7 +382,7 @@ header {
     transition: all 2s ease;
 }
 
-.section4buton:hover{
+.section4buton:hover {
     box-shadow: var(--buttonshover);
 }
 
@@ -452,7 +453,7 @@ header {
     animation: Submit 5s infinite;
 }
 
-@keyframes Submit{
+@keyframes Submit {
     from {
         font-size: 8px;
     }
@@ -563,7 +564,7 @@ header {
     transition: all 1s ease;
 }
 
-.helpcenterbutton:hover{
+.helpcenterbutton:hover {
     box-shadow: var(--buttonshover);
 }
 
@@ -580,7 +581,7 @@ footer {
 }
 
 .socialinfo {
-    
+
     text-align: start;
     margin-bottom: 43px;
 }
@@ -614,11 +615,11 @@ footer {
 
 
 
-.iconss{
+.iconss {
     transition: all 1s ease;
 }
 
-.iconss:hover{
+.iconss:hover {
     transform: scale(1.2);
 }
 
@@ -746,7 +747,7 @@ main {
     animation: searchbutton 3s forwards;
 }
 
-@keyframes searchbutton{
+@keyframes searchbutton {
     from {
         font-size: 6px;
     }
@@ -807,7 +808,7 @@ main {
     transition: all 2s ease;
 }
 
-.productcards:hover{
+.productcards:hover {
     transform: scale(.8);
 }
 
@@ -842,15 +843,70 @@ main {
     line-height: normal;
 }
 
-.moveinpages{
+.moveinpages {
     transition: all 2s ease;
 }
 
-.moveinpages:hover{
+.moveinpages:hover {
     box-shadow: var(--buttonshover);
 }
 
+/* calculator */
 
+.calcsection {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightcolor_of_font);
+}
+
+.calculator {
+    border: 1px solid var(--Mediumcolor_of_font);
+    padding: 15px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+.calcinput {
+    width: 270px;
+    border: none;
+    padding: 12px;
+    margin: 10px;
+    color: var(--basiccolor);
+    background: transparent;
+    box-shadow: 0px 3px 15px var(--basiccolor));
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.calcinput::placeholder{
+    color: var(--basiccolor);
+}
+
+.calcbutton{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--basiccolor);
+    font-size: 20px;
+    box-shadow: -8px -8px 15px var(--Mediumcolor_of_font);
+    cursor: pointer;
+}
+
+.equalbtn{
+    background-color: var(--Boldcolor_of_font) ;
+}
+
+.operator{
+    color: var(--Mediumcolor_of_font);
+}
 /* Contacts page */
 
 .section1contacts {
@@ -862,6 +918,8 @@ main {
     position: relative;
 
 }
+
+
 
 .get_in_touch {
     width: 500px;
@@ -954,7 +1012,7 @@ main {
     animation: searchbutton 3s infinite;
 }
 
-@keyframes searchbutton{
+@keyframes searchbutton {
     from {
         font-size: 6px;
     }
