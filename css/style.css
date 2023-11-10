@@ -276,12 +276,10 @@ header {
 /* section4 */
 
 .section4 {
-    padding: 8% 9%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 40px;
+    justify-content: center;
 }
 
 .productstitle {
@@ -295,9 +293,16 @@ header {
 
 .products {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 24px;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#backbtn,
+#nextbtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
 }
 
 .arrows {
@@ -309,61 +314,26 @@ header {
 }
 
 .productscards {
+    width: 1300px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    overflow-x: scroll;
 
 }
 
-
-.productscard1 {
-    display: flex;
-    position: relative;
-    animation: productcard1 1s infinite;
+.productscards::-webkit-scrollbar {
+    display: none;
 }
 
-@keyframes productcard1 {
-    0% {
-        rotate: 0;
-    }
-
-    30% {
-        rotate: 2deg;
-    }
-
-    60% {
-        rotate: -2deg;
-    }
-
-    100% {
-        rotate: 0;
-    }
-
-
+.productscards div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
 }
 
-.productsprice {
-    color: var(--Mediumcolor_of_font);
-    font-family: var(--majortext);
-    display: inline-flex;
-    padding: 15px 17px 14px 17px;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-radius: 20px;
-    background: var(--basiccolor);
-    position: absolute;
-    left: 7%;
-    top: 195px;
-    transform: translatex(-7%);
-    z-index: 1;
 
-}
 
 .section4button {
     display: none;
@@ -688,83 +658,22 @@ main {
     align-items: center;
 }
 
-.searchproduct {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 59px;
-    margin-bottom: 61px;
-}
-
-.bycategory {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-
-.categorytext {
-    color: var(--Boldcolor_of_font);
-    font-family: var(--majortext);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.searchproductform {
-    display: flex;
-}
-
-.searchinput {
-    display: flex;
-    width: 439px;
-    height: 56px;
-    padding: 5px 20px;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 271px;
-    border-radius: 10px 0 0 10px;
-    border: 2px solid var(--Boldcolor_of_font);
-}
-
-.searchbutton {
-    display: flex;
-    width: 251px;
-    height: 56px;
-    padding: 17px 0px;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 0px 10px 10px 0px;
-    background: var(--Boldcolor_of_font);
-    color: var(--basiccolor);
-    font-family: var(--majortext);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    animation: searchbutton 3s forwards;
-}
-
-@keyframes searchbutton {
-    from {
-        font-size: 6px;
-    }
-
-    to {
-        font-size: 18px;
-    }
-}
 
 .allcategory {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: start;
-    margin-bottom: 94px;
+    margin-bottom: 50px;
+    gap: 40px;
 
 
+
+}
+
+.Activebtn {
+    background-color: var(--lightcolor_of_font);
+    border: 1px solid var(--lightcolor_of_font);
 }
 
 .allcategorytitle {
@@ -776,19 +685,8 @@ main {
     line-height: normal;
 }
 
-.sort {
-    display: flex;
-    gap: 40px;
-}
 
-.sorttext {
-    color: var(--Boldcolor_of_font);
-    font-family: var(--majortext);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
 
 
 /* product list */
@@ -806,6 +704,10 @@ main {
     flex-direction: column;
     justify-content: start;
     transition: all 2s ease;
+}
+
+.productcards.hide {
+    display: none;
 }
 
 .productcards:hover {
@@ -843,13 +745,7 @@ main {
     line-height: normal;
 }
 
-.moveinpages {
-    transition: all 2s ease;
-}
 
-.moveinpages:hover {
-    box-shadow: var(--buttonshover);
-}
 
 /* calculator */
 
@@ -1009,7 +905,7 @@ select option {
     border-radius: 50px;
     color: var(--basiccolor);
     background-color: var(--Boldcolor_of_font);
-    padding: 15px 0 ;
+    padding: 15px 0;
 }
 
 /* Contacts page */

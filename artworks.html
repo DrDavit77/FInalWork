@@ -56,29 +56,19 @@
         </section>
 
         <main>
-            <div class="searchproduct">
-                <div class="bycategory ">
-                    <p class="categorytext">Shop By Category</p>
-                    <img src="img.artworks/ic_outline-keyboard-arrow-down.svg" alt="">
-                </div>
-
-                <form name="searchproductform" class="searchproductform">
-                    <input class="searchinput" type="text" id="searchproduct" name="search"
-                        placeholder="Search For Anything">
-                    <button class="searchbutton" type="submit"> SEARCH</button>
-                </form>
-            </div>
+            
 
             <div class="allcategory">
-                <p class="allcategorytitle">All Category</p>
+                <button class="allcategorytitle Activebtn" data-name="All">All Category</button>
+                <button class="allcategorytitle" data-name="glass">Glass</button>
+                <button class="allcategorytitle" data-name="plate">Plate</button>
+                <button class="allcategorytitle" data-name="bowl">Bowl</button>
+                
 
-                <div class="sort">
-                    <p class="sorttext">Sort</p>
-                    <img src="img.artworks/tabler_arrows-sort.svg" alt="">
-                </div>
+                
             </div>
             <div class="product_list">
-                <div class="productcards">
+                <div class="productcards" data-name="Bowl">
                     <img class="productimg" src="img.artworks/Rectangle 102.svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -86,7 +76,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards benonecards2">
+                <div class="productcards benonecards2 " data-name="Glass">
                     <img class="productimg" src="img.artworks/Rectangle 102 (1).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -94,7 +84,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards">
+                <div class="productcards" data-name="Plate">
                     <img class="productimg" src="img.artworks/Rectangle 102 (2).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -102,7 +92,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards">
+                <div class="productcards" data-name="Glass">
                     <img class="productimg" src="img.artworks/Rectangle 102 (3).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -110,7 +100,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards benonecards2">
+                <div class="productcards benonecards2" data-name="Bowl">
                     <img class="productimg" src="img.artworks/Rectangle 102 (4).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -118,7 +108,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards benonecards2">
+                <div class="productcards benonecards2" data-name="Glass">
                     <img class="productimg" src="img.artworks/Rectangle 102 (5).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -126,7 +116,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards benonecards1">
+                <div class="productcards benonecards1" data-name="Plate">
                     <img class="productimg" src="img.artworks/Rectangle 102 (6).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -134,7 +124,7 @@
                         <img src="img.artworks/material-symbols_add-shopping-cart.svg" alt="">
                     </div>
                 </div>
-                <div class="productcards benonecards1">
+                <div class="productcards benonecards1" data-name="Plate">
                     <img class="productimg" src="img.artworks/Rectangle 102 (7).svg" alt="">
                     <p class="producttitle">Product Name</p>
                     <div class="priceandcart">
@@ -143,9 +133,7 @@
                     </div>
                 </div>
             </div>
-            <figure>
-                <img class="moveinpages" src="img.artworks/Frame 43.svg" alt="">
-            </figure>
+           
         </main>
         <section class="calcsection">
             <div class="calculator">
@@ -237,8 +225,11 @@
         </footer>
     </div>
 
+    <script src="category.js"></script>
     <script src="currency-codes.js"></script>
+
     <script src="api-keys.js"></script>
+
     <script src="script.js"></script>
 
 

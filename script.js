@@ -69,21 +69,25 @@ let convertCurrency = () => {
     const fromCurrency = fromDropDown.value;
     const toCurrency = toDropDown.value;
 
-    if(amount.length != 0) {
+    if (amount.length != 0) {
         fetch(api)
-        .then((resp) => resp.json())
-        .then((data) => {
-            let fromExchangeRate = data.conversion_rates[fromCurrency];
-            let toExchangeRate = data.conversion_rates[toCurrency];
-            const convertedAmount = (amount / fromExchangeRate) * toExchangeRate;
-            result.innerHTML = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)} ${toCurrency};`
-        });
+            .then((resp) => resp.json())
+            .then((data) => {
+                let fromExchangeRate = data.conversion_rates[fromCurrency];
+                let toExchangeRate = data.conversion_rates[toCurrency];
+                const convertedAmount = (amount / fromExchangeRate) * toExchangeRate;
+                result.innerHTML = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)} ${toCurrency};`
+            });
     } else {
         alert("Please fill the amount")
     }
 };
 
 document
-.querySelector("#convert-button")
-.addEventListener("click", convertCurrency);
+    .querySelector("#convert-button")
+    .addEventListener("click", convertCurrency);
 window.addEventListener("load", ConvertCurrency);
+
+
+
+
